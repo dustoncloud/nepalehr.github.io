@@ -4,8 +4,8 @@ main:
     url: /overview/
   - title: "Installation"
     url: /install-bahmni-089/
-  - title: "Implementer's Manual"
-    url: /implementers-manual/
+  - title: "Configuration Manual"
+    url: /configuration-manual/
   - title: "User Manual"
     url: /user-manual/
 pages:
