@@ -8,7 +8,7 @@ header:
   overlay_filter: "0.5"
   overlay_image: /assets/images/unsplash-image-1.jpg
   cta_label: "Learn More"
-  cta_url: /overview/
+  cta_url: "/overview/"
   caption: "Photo credit: [**Unsplash**](https://unsplash.com)"
 excerpt: "An implementation of the popular Bahmni EMR system configured to meet Nepal's healthcare system needs - an integrated system designed to work even in rural settings."
 intro: 
