@@ -1,17 +1,17 @@
 # main links
 main:
   - title: "Overview"
-    url: /index.html
-  - title: "Installation"
-    url: /year-archive/
+    url: /overview/
   - title: "User guide"
-    url: /collection-archive/
-  - title: "Resources"
-    url: /sitemap/
+    url: /user-guide/
+  - title: "Implementer's Guide"
+    url: /implementers-guide/
+  - title: "Installation"
+    url: /installation/
 pages:
-  - title: Background
+  - title: Overview
     children:
-      - title: "Quick-Start Guide"
+      - title: "Background"
         url: /_pages/quick-start-guide/
       - title: "Structure"
         url: /_pages/structure/
@@ -20,7 +20,7 @@ pages:
       - title: "Upgrading"
         url: /docs/upgrading/
 
-  - title: Prerequisites
+  - title: Installation
     children:
       - title: "Configuration"
         url: /docs/configuration/

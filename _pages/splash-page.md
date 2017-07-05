@@ -1,7 +1,7 @@
 ---
 title: "NepalEHR"
 layout: splash
-permalink: /splash/
+permalink: /
 date: 2017-06-05T16:00:41+5:45
 header:
   overlay_color: "#000"
@@ -12,19 +12,19 @@ header:
   caption: "Photo credit: [**Unsplash**](https://unsplash.com)"
 excerpt: "An implementation of the popular Bahmni EMR system configured to meet Nepal's healthcare system needs - an integrated system designed to work even in rural settings."
 intro: 
-  - excerpt: 'Nullam suscipit et nam, tellus velit pellentesque at malesuada, enim eaque. Quis nulla, netus tempor in diam gravida tincidunt, *proin faucibus* voluptate felis id sollicitudin. Centered with `type="center"`'
+  - excerpt: 'This website aims to document the integrated NepalEHR product for users and implementers. It is maintained by [Possible](http://possiblehealth.org), a non-profit organization that has been leading the customization effort in Nepal.'
 feature_row:
   - image_path: assets/images/unsplash-gallery-image-1-th.jpg
     alt: "placeholder image 1"
     title: "Informing policy"
-    excerpt: "Possible's implementation of Bahmni featured in a study of oversea innovators that US providers and policymakers can learn from."
+    excerpt: "Possible's EHR implementation featured in a study of overseas innovators US providers and policymakers can learn from"
     url: "http://bit.ly/electronichealthrecord"
     btn_label: "Read article"
     btn_class: "btn--inverse"
   - image_path: /assets/images/unsplash-gallery-image-2-th.jpg
     alt: "placeholder image 2"
     title: "Case study"
-    excerpt: "Read the case study published in **Journal of Innovation in Health Informatics** on an implementation of Bahmni at a hospital in Achham."
+    excerpt: "Case study published in **Journal of Innovation in Health Informatics** on implementation of Bahmni at a hospital in Achham."
     url: "https://hijournal.bcs.org/index.php/jhi/article/view/862"
     btn_label: "Read case study"
     btn_class: "btn--inverse"
