@@ -11,12 +11,12 @@ last_modified_at: 2017-06-05T10:01:43-04:00
 
 ## Installation steps
 1. Ensure the serveris  running CentOS 6.7
-2. For offline installation, enable yum cache so the downloaded packages can be used when offline. However, note that you will need to be online for packages to download in the first place - but downloaded packages will be used in any subsequent installation. Refer to ```https://bahmni.atlassian.net/wiki/display/BAH/Bahmni+Installation+Without+Internet)```
-3. Follow the steps in the provided link to install the default Bahmni package (see following bullet points for additional instructions to follow before triggering installation) ```https://bahmni.atlassian.net/wiki/pages/viewpage.action?pageId=35291242```
-  - Git clone setup.yml to ```/etc/bahmni-installer/```
+2. For offline installation, enable ```yum cache``` so the downloaded packages can be used when offline. However, note that you will need to be online for packages to download in the first place - but downloaded packages will be used in any subsequent installation. Refer to [this link](https://bahmni.atlassian.net/wiki/display/BAH/Bahmni+Installation+Without+Internet) for detailed instructions.
+3. Follow the steps detailed in this [link](https://bahmni.atlassian.net/wiki/pages/viewpage.action?pageId=35291242) to install the default Bahmni package (see following bullet points for additional instructions to follow before triggering installation) 
+  - Git clone ```setup.yml``` to ```/etc/bahmni-installer/```
   - Git clone database dump files provided in the NepalEHR database repositories in the deployment-artifacts folder to ensure these databases are restored by the installer
   - Git clone NepalEHR_config files to deployment-artifacts to ensure these configurations are used by the installer
-  - Git clone NepalEHR inventory file ("local") to /etc/bahmni-installer/. "localhost" can be replaced with an IP, and any bahmni-subsystems that are not required can be commented out.
+  - Git clone NepalEHR inventory file ```local``` to ```/etc/bahmni-installer/```. References to "localhost" can be replaced with an IP, and any bahmni-subsystems that are not required can be commented out.
 4. Check whether all the applications are up and running (MRS, ELIS, ERP, PACS, Reports)
 ```bash
 sudo service openmrs status
