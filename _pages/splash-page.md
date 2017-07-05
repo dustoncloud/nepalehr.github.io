@@ -10,25 +10,26 @@ header:
   cta_label: "Learn More"
   cta_url: "/overview/"
   caption: "Bayalpata Hospital, Achham"
-excerpt: "An implementation of the popular Bahmni EMR system configured to meet Nepal's healthcare system needs - an integrated system designed to work even in rural settings."
+excerpt: "An implementation of the popular Bahmni EMR system configured to meet Nepal's healthcare system needs - an integrated system designed to work in resource-limited settings."
 intro: 
-  - excerpt: 'This website aims to document the integrated NepalEHR product for users and implementers. It is maintained by [Possible](http://possiblehealth.org), a non-profit organization that has been leading the customization effort in Nepal.'
+  - excerpt: 'This website aims to document the integrated NepalEHR product for users and implementers. It is maintained by [Possible](http://possiblehealth.org), a non-profit organization that has been leading the Bahmni customization effort in Nepal since 2014.'
 feature_row:
   - image_path: assets/images/community_css.jpg
-    alt: "placeholder image 1"
+    alt: "Community continuous surveillance"
     title: "Informing policy"
     excerpt: "Possible's EHR implementation featured in a study of overseas innovators US providers and policymakers can learn from"
     url: "http://bit.ly/electronichealthrecord"
     btn_label: "Read article"
     btn_class: "btn--inverse"
   - image_path: /assets/images/ehr_user.jpg
-    alt: "placeholder image 2"
+    alt: "EHR User"
     title: "Case study"
     excerpt: "Case study published in **Journal of Innovation in Health Informatics** on implementation of Bahmni in rural settings."
     url: "https://hijournal.bcs.org/index.php/jhi/article/view/862"
     btn_label: "Read case study"
     btn_class: "btn--inverse"
   - image_path: /assets/images/digitizing_rural_nepal.jpg
+	alt: "Digital x-ray"
     title: "Advocacy"
     excerpt: "Digitizing Healthcare In Rural Nepal: Why Having an Electronic Medical Record Matters."
     url: "https://medium.com/@possible/digitizing-healthcare-in-rural-nepal-8931dda9cb81"
