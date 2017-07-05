@@ -1,7 +1,7 @@
 ---
 title: "NepalEHR"
 layout: splash
-permalink: /
+permalink: /splash/
 date: 2017-06-05T16:00:41+5:45
 header:
   overlay_color: "#000"
@@ -18,7 +18,7 @@ feature_row:
     alt: "placeholder image 1"
     title: "Informing policy"
     excerpt: "Possible's implementation of Bahmni featured in a study of oversea innovators that US providers and policymakers can learn from."
-	url: "http://bit.ly/electronichealthrecord"
+    url: "http://bit.ly/electronichealthrecord"
     btn_label: "Read article"
     btn_class: "btn--inverse"
   - image_path: /assets/images/unsplash-gallery-image-2-th.jpg
@@ -31,7 +31,7 @@ feature_row:
   - image_path: /assets/images/unsplash-gallery-image-3-th.jpg
     title: "Advocacy"
     excerpt: "Digitizing Healthcare In Rural Nepal: Why Having an Electronic Medical Record Matters."
-	url: "https://medium.com/@possible/digitizing-healthcare-in-rural-nepal-8931dda9cb81"
+    url: "https://medium.com/@possible/digitizing-healthcare-in-rural-nepal-8931dda9cb81"
     btn_label: "Read article"
     btn_class: "btn--inverse"
 ---
