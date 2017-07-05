@@ -29,7 +29,7 @@ feature_row:
     btn_label: "Read case study"
     btn_class: "btn--inverse"
   - image_path: /assets/images/digitizing_rural_nepal.jpg
-	alt: "Digital x-ray"
+    alt: "Digital x-ray"
     title: "Advocacy"
     excerpt: "Digitizing Healthcare In Rural Nepal: Why Having an Electronic Medical Record Matters."
     url: "https://medium.com/@possible/digitizing-healthcare-in-rural-nepal-8931dda9cb81"
