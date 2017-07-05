@@ -2,12 +2,12 @@
 main:
   - title: "Overview"
     url: /overview/
-  - title: "User guide"
-    url: /user-guide/
-  - title: "Implementer's Guide"
-    url: /implementers-guide/
   - title: "Installation"
     url: /installation/
+  - title: "Implementer's Guide"
+    url: /implementers-guide/
+  - title: "User Guide"
+    url: /user-guide/
 pages:
   - title: Overview
     children:
