@@ -3,11 +3,11 @@ main:
   - title: "Overview"
     url: /overview/
   - title: "Installation"
-    url: //install-bahmni-089//
-  - title: "Implementer's Guide"
-    url: 
-  - title: "User Guide"
-    url: 
+    url: /install-bahmni-089/
+  - title: "Implementer's Manual"
+    url: /implementers-manual/
+  - title: "User Manual"
+    url: /user-manual/
 pages:
   - title: Overview
     children:

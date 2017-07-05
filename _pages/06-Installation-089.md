@@ -13,7 +13,8 @@ last_modified_at: 2017-06-05T10:01:43-04:00
 1. Ensure the serveris  running CentOS 6.7
 2. For offline installation, enable yum cache so the downloaded packages can be used when offline. However, note that you will need to be online for packages to download in the first place - but downloaded packages will be used in any subsequent installation.
 ```
-Refer to https://bahmni.atlassian.net/wiki/display/BAH/Bahmni+Installation+Without+Internet)
+#Refer to 
+https://bahmni.atlassian.net/wiki/display/BAH/Bahmni+Installation+Without+Internet)
 ```
 3. Follow the steps in the provided link to install the default Bahmni package (see 3.1 to 3.4 for additional instructions to follow before triggering installation)
 ```
