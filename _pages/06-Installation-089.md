@@ -10,7 +10,7 @@ last_modified_at: 2017-06-05T10:01:43-04:00
 {: .notice--warning}
 
 ## Installation steps
-1. Ensure the server is  running CentOS 6.7 6.8 or 6.9. (Make sure you have more than 200 GB in / partition.
+1. Ensure the server is  running CentOS 6.7 6.8 or 6.9. (Make sure to  have more than 200 GB in / partition)
 2. For offline installation, enable ```yum cache``` so the downloaded packages can be used when offline. However, note that you will need to be online for packages to download in the first place - but downloaded packages will be used in any subsequent installation. Refer to [this link](https://bahmni.atlassian.net/wiki/display/BAH/Bahmni+Installation+Without+Internet) for detailed instructions.
 3. Follow the steps detailed in this [link](https://bahmni.atlassian.net/wiki/pages/viewpage.action?pageId=35291242) to install the default Bahmni package (see following bullet points for additional instructions to follow before triggering installation) 
   - Git clone ```setup.yml``` to ```/etc/bahmni-installer/```
