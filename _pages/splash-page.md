@@ -10,7 +10,7 @@ header:
   cta_label: "Learn More"
   cta_url: "/overview/"
   caption: "Bayalpata Hospital, Achham"
-excerpt: "An implementation of the popular Bahmni EMR system configured to meet Nepal's healthcare system needs - an integrated system designed to work in resource-limited settings."
+excerpt: "An integrated implementation of the hospital-based Bahmni and community-based Commcare systems configured to meet Nepal's healthcare system needs."
 intro: 
   - excerpt: 'This website aims to document the integrated NepalEHR product for users and implementers. It is maintained by [Possible](http://possiblehealth.org), a non-profit organization that has been leading the Bahmni customization effort in Nepal since 2014.'
 feature_row:
