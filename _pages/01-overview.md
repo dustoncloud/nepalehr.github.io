@@ -2,11 +2,11 @@
 title: "Overview"
 permalink: /overview/
 layout: single
-excerpt: "How to quickly install and setup Minimal Mistakes for use with GitHub Pages."
-last_modified_at: 2016-11-03T10:01:43-04:00
+excerpt: "Overview of NepalEHR."
+last_modified_at: 2017-10-02T10:01:43-04:00
 ---
 
-_NepalEHR_ is an implementation of [Bahmni](http://bahmni.org) open source electronic health record system that allows for digital storage, secure access, and maintenance of individual patient’s medical records - simple enough to be used by mid-level practitioners but complex enough to meet demanding population health needs. The integrated system includes a supply chain management component critical for an efficient healthcare system, and is currently being integrated with Commcare for community-based care.
+_NepalEHR_ is an implementation of [Bahmni](http://bahmni.org) open source electronic health record system and [Commcare](https://commcarehq.org) mobile platform that allows for digital storage, secure access, and maintenance of individual patient’s medical records - simple enough to be used by mid-level practitioners and community health workers but complex enough to meet demanding population health needs. The integrated system includes a supply chain management component critical for an efficient healthcare system.
 
 {% include toc %}
 
@@ -32,9 +32,10 @@ Bahmni is an easy to use, complete, open source Hospital Information System (HIS
 * [OpenELIS](http://openelis.org/): Open source lab information system
 * [OpenERP/Odoo](http://odoo.com): Open source inventory and resources management tool
 * [DCM4Che](/http://www.dcm4che.org/): Open source clinical image and object management
+* [Commcare](/http://www.commcarehq.org/): Mobile data collection platform
 
 ## NepalEHR Implementation
-_NepalEHR_ is an implementation of [Bahmni](http://bahmni.org) that as been configured for Nepal's public healthcare system. It builds upon Bahmni, with configuration to include Nepal's HMIS (http://dohs.gov.np/information-systems/health-management-information-section/) forms for data entry, and HMIS reports generation. Work is ongoing to integrate the system with Nepal Ministry of Health's DHIS2.
+_NepalEHR_ is an implementation of [Bahmni](http://bahmni.org) and [Commcare](https://commcarehq.org) that as been configured for Nepal's public healthcare system. It builds upon Bahmni, with configuration to include Nepal's HMIS (http://dohs.gov.np/information-systems/health-management-information-section/) forms for data entry, and HMIS reports generation. Work is ongoing to integrate the system with Nepal Ministry of Health's DHIS2.
 
 ***Included in the package***
 * Bahmni 0.89
@@ -52,3 +53,4 @@ _NepalEHR_ is an implementation of [Bahmni](http://bahmni.org) that as been conf
 * Supply chain management (OpenERP)
 * Radiology orders and DICOM image viewing (DCM4Che <> OpenMRS)
 * HMIS reporting (OpenMRS)
+* Mobile data collection with assisted decision making (Commcare)
