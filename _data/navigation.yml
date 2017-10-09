@@ -8,6 +8,8 @@ main:
     url: /configuration-manual/
   - title: "User Manual"
     url: /user-manual/
+  - title: "FAQ"
+    url: /faq/
 pages:
   - title: Overview
     children:
