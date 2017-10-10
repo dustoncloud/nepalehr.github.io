@@ -1,0 +1,67 @@
+
+<!DOCTYPE html>
+<html>
+<head>   
+
+<title>DHIS Web Portal</title>
+
+<link href="style.css" rel="stylesheet" type="text/css">
+<link href="//fonts.googleapis.com/css?family=Roboto:400" rel="stylesheet"/>
+
+<script src="//code.jquery.com/jquery-2.2.4.min.js"></script>
+
+<script type="text/javascript">
+
+var base = 'https://dhis2.ehrnepal.org/';
+
+function setLinks() {
+  jQuery("#chart1").attr("src", base + "api/charts/c668WN0rX4o/data");
+  jQuery("#chart2").attr("src", base + "api/charts/rYfXg75Gtzz/data");
+}
+
+jQuery(document).ready(function() {
+  $.post( base + "dhis-web-commons-security/login.action?authOnly=true", {
+      j_username: "anant", j_password: "Anant123"
+    },
+    setLinks
+  );
+});
+
+</script>
+
+</head>
+<body>
+
+<header>
+<h1>Web Portal</h1>
+</header>
+
+<menu>
+<p><a href="http://dhis2.org">Home</a> |
+<a href="index.html">Portal</a> |
+<a href="table.html">Table</a> |
+<a href="chart.html">Chart</a> |
+<a href="map.html">Map</a> |
+<a href="carousel.html">Carousel</a>
+
+<p>This page illustrates how the DHIS Web API can be used as back-end for a Web portal. All content on this
+page is loaded dynamically from the Web API running with the demo DHIS instance. Right-click on the page and
+view the page source to see how authentication and requests are handled. Notice that the portal must be
+hosted at the same domain as the DHIS instance to avoid "same origin policy" issues for authentication and
+loading of resources.</p>
+</menu>
+
+<section>
+
+
+<h3>Tables</h3>
+
+
+<h3>Charts</h3>
+<img style="padding: 15px; margin: 15px; border: 1px solid #c0c0c0;" id="chart1" />
+<img style="padding: 15px; margin: 15px; border: 1px solid #c0c0c0;" id="chart2" />
+
+</section>
+
+</body>
+</html>
